@@ -1,0 +1,27 @@
+{
+    "name": "Tap huan",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "SmartHomeKit": "github:npnlab-vn/SmartHomeKit#0.0.1",
+        "ESP8266_IoT": "github:npnlab-vn/pxt-esp8266iot#v0.0.12"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
